@@ -10,8 +10,8 @@ Record and replay Bespoke.js slide interactions from local storage and JSON data
 
 Download the [production version][min] or the [development version][max].
 
-[min]: https://raw.github.com/markdalgleish/bespoke.js/master/dist/bespoke-vcr.min.js
-[max]: https://raw.github.com/markdalgleish/bespoke.js/master/dist/bespoke-vcr.js
+[min]: https://raw.github.com/markdalgleish/bespoke-vcr/master/dist/bespoke-vcr.min.js
+[max]: https://raw.github.com/markdalgleish/bespoke-vcr/master/dist/bespoke-vcr.js
 
 ## Basic Usage
 
