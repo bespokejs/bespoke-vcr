@@ -1,0 +1,8 @@
+{
+  "name": "bespoke-vcr",
+  "version": "0.0.1-alpha-1",
+  "main": "./dist/bespoke-vcr.min.js",
+  "ignore": [
+    "**/.*"
+  ]
+}
