@@ -1,8 +1,11 @@
 {
   "name": "bespoke-vcr",
-  "version": "0.0.1-alpha-1",
+  "version": "0.0.1-alpha-2",
   "main": "./dist/bespoke-vcr.min.js",
   "ignore": [
     "**/.*"
-  ]
+  ],
+  "dependencies": {
+    "bespoke.js": "0.2.1"
+  }
 }
