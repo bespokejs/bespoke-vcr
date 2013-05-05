@@ -13,6 +13,14 @@ Download the [production version][min] or the [development version][max].
 [min]: https://raw.github.com/markdalgleish/bespoke-vcr/master/dist/bespoke-vcr.min.js
 [max]: https://raw.github.com/markdalgleish/bespoke-vcr/master/dist/bespoke-vcr.js
 
+### Bower
+
+Bespoke-vcr can be installed from [Bower](http://twitter.github.com/bower/) using the following command:
+
+```bash
+$ bower install bespoke-vcr
+```
+
 ## Basic Usage
 
 First, include both `bespoke.js` and `bespoke-vcr.js` in your page.
