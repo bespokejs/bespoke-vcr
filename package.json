@@ -1,12 +1,13 @@
 {
   "name": "bespoke-vcr",
   "title": "bespoke-vcr",
-  "version": "0.0.1-alpha-3",
+  "version": "0.0.1-alpha.4",
   "description": "Recording and Playback for Bespoke.js",
   "author": {
     "name": "Mark Dalgleish",
     "url": "http://markdalgleish.com"
   },
+  "main": "./dist/bespoke-vcr.js",
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -16,6 +17,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/markdalgleish/bespoke-vcr.git"
+  },
+  "peerDependencies": {
+    "bespoke": ">=0.3.0"
   },
   "devDependencies": {
     "grunt": "~0.3.17",
