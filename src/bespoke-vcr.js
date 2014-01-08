@@ -47,7 +47,7 @@
 					isPlaying = false;
 					status.red();
 
-					report('Recording to local storage...');
+					console.log('Recording to local storage...');
 					recordStartTime = new Date().getTime();
 
 					frames = [];
@@ -64,7 +64,7 @@
 					isPlaying = true;
 					status.green();
 
-					report('Playing the following recording:', frames);
+					console.log('Playing the following recording:', frames);
 
 					deck.slide(0);
 					frames.forEach(function(frame) {
@@ -72,7 +72,7 @@
 							if (frame.command) {
 								deck[frame.command].apply(null, frame.arguments || []);
 							} else {
-								report('Playback complete');
+								console.log('Playback complete');
 								isPlaying = false;
 								status.clear();
 							}
@@ -86,7 +86,7 @@
 							timeout: new Date().getTime() - recordStartTime
 						});
 						save(recordings);
-						report('Successfully recorded the following to local storage:', frames);
+						console.log('Successfully recorded the following to local storage:', frames);
 					}
 
 					isRecording = false;
@@ -169,10 +169,10 @@
 
 	window.vcr = {
 		latest: function() {
-			plugin.reporters.console('Latest recording:', getLatestRecording());
+			console.log('Latest recording:', getLatestRecording());
 		},
 		all: function() {
-			plugin.reporters.console('All recordings:', getRecordings());
+			console.log('All recordings:', getRecordings());
 		},
 		clear: clear
 	};
