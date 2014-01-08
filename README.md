@@ -102,6 +102,7 @@ bespoke.horizontal.from(selector, {
       // Toggle plaback
       remote.play();
     }
+  }
 });
 ```
 
