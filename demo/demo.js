@@ -1,3 +1,4 @@
-bespoke.horizontal.from('article', {
+bespoke.from('article', {
+	keys: true,
 	vcr: true
 });

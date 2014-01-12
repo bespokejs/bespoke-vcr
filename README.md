@@ -28,7 +28,7 @@ First, include both `bespoke.js` and `bespoke-vcr.js` in your page.
 Then, simply include the plugin when using the `from(selector[, plugins])` method.
 
 ```js
-bespoke.horizontal.from(selector, {
+bespoke.from(selector, {
   vcr: true
 });
 ```
@@ -58,7 +58,7 @@ vcr.all();
 Recordings can be provided on load via the 'recording' option:
 
 ```js
-bespoke.horizontal.from(selector, {
+bespoke.from(selector, {
   vcr: {
     recording: [
       {
@@ -90,7 +90,7 @@ The default remote uses the 'R', 'P' and 'S' keys.
 To override this behavious, pass a 'remote' function via the options object:
 
 ```js
-bespoke.horizontal.from(selector, {
+bespoke.from(selector, {
   vcr: {
     remote: function(remote) {
       // Toggle recording:
