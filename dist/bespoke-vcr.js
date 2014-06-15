@@ -1,5 +1,5 @@
 /*!
- * bespoke-vcr v0.0.1-alpha.4
+ * bespoke-vcr v0.1.0-beta
  *
  * Copyright 2014, Mark Dalgleish
  * This content is released under the MIT license
