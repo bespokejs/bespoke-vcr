@@ -1,7 +1,7 @@
 {
   "name": "bespoke-vcr",
   "title": "bespoke-vcr",
-  "version": "0.1.0-beta",
+  "version": "0.1.0",
   "description": "Recording and Playback for Bespoke.js",
   "author": {
     "name": "Mark Dalgleish",
